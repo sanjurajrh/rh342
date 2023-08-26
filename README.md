@@ -8,7 +8,7 @@
 # gcc -o example example.c
 4. After compiling, save the example file to /usr/local/bin so that it will be available for everyone
 # cp -av example /usr/local/bin
-5. Now use the different options with valgrind to check the memory errors
+5. Now use the different options with valgrind to check the memory errors (Ensure that the valgrind package is installed)
 # valgrind --tool=memcheck example
 # valgrind --tool=memcheck --leak-check=full example
 # valgrind --tool=memcheck --leak-check=full --show-reachable=yes --log-file=example.memchk example
