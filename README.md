@@ -1,7 +1,7 @@
 # rh342
 1. Install the gcc package 
 # yum -y install gcc
-2. Clone the repository to get the application example
+2. Clone the repository to get the application example. (Ensure that the git package is installed)
 # git clone https://github.com/sanjurajrh/rh342.git
 3. Once cloned, change to the directory and then complie the c program
 # cd rh342
